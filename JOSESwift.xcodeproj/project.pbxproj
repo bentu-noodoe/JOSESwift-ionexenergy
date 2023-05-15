@@ -126,6 +126,7 @@
 		C8A592401FC71586009CEFA6 /* RSADecryptionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A5923F1FC71586009CEFA6 /* RSADecryptionTests.swift */; };
 		C8EE14541FAC797500A616E4 /* RSAVerifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EE14531FAC797500A616E4 /* RSAVerifierTests.swift */; };
 		C8F096501FC56B25000BEE4D /* RSAEncryptionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F0964F1FC56B25000BEE4D /* RSAEncryptionTests.swift */; };
+		DD4674012A0E390700CAB28C /* CcuSigner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4674002A0E390700CAB28C /* CcuSigner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -261,6 +262,7 @@
 		C8A5923F1FC71586009CEFA6 /* RSADecryptionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSADecryptionTests.swift; sourceTree = "<group>"; };
 		C8EE14531FAC797500A616E4 /* RSAVerifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSAVerifierTests.swift; sourceTree = "<group>"; };
 		C8F0964F1FC56B25000BEE4D /* RSAEncryptionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSAEncryptionTests.swift; sourceTree = "<group>"; };
+		DD4674002A0E390700CAB28C /* CcuSigner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CcuSigner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -444,6 +446,7 @@
 		65A9D3E21F45CDF1004E0B61 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				DD4673FD2A0E388C00CAB28C /* CCU */,
 				8A30B8F622118FD0001834E3 /* CompressionImplementation */,
 				6582C0BB1F4B09DC00B153D5 /* Common */,
 				65FABAEB1F4AD8FA006D7679 /* JWS */,
@@ -600,6 +603,14 @@
 				612B0C93248E1C83009F1929 /* Thumbprint.swift */,
 			);
 			path = CryptoImplementation;
+			sourceTree = "<group>";
+		};
+		DD4673FD2A0E388C00CAB28C /* CCU */ = {
+			isa = PBXGroup;
+			children = (
+				DD4674002A0E390700CAB28C /* CcuSigner.swift */,
+			);
+			name = CCU;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -825,6 +836,7 @@
 				65A7A1991F7295F5009449E7 /* Payload.swift in Sources */,
 				657D0F7723FAE857004A7975 /* AESKeyWrappingMode.swift in Sources */,
 				C81DD9281FD7096100026024 /* HMAC.swift in Sources */,
+				DD4674012A0E390700CAB28C /* CcuSigner.swift in Sources */,
 				6558164D23F45CC200EA5FEC /* ContentEncryption.swift in Sources */,
 				6571F6231F7BF786004D53C5 /* JWSHeader.swift in Sources */,
 				65D8680F1F7CE35000769BBF /* RSAVerifier.swift in Sources */,
