@@ -26,7 +26,7 @@ public struct CcuSigner<KeyType> {
         self.signer = ECSigner(algorithm: .ES256, privateKey: key as! ECSigner.KeyType)
     }
     
-    public func sign(payload: Payload) throws -> Data {
-        return try signer.sign(payload.data())
+    public func sign(data: Data) throws -> Data {
+        return try signer.sign(data)
     }
 }
