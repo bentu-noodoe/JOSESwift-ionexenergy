@@ -262,6 +262,7 @@
 		C8A5923F1FC71586009CEFA6 /* RSADecryptionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSADecryptionTests.swift; sourceTree = "<group>"; };
 		C8EE14531FAC797500A616E4 /* RSAVerifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSAVerifierTests.swift; sourceTree = "<group>"; };
 		C8F0964F1FC56B25000BEE4D /* RSAEncryptionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSAEncryptionTests.swift; sourceTree = "<group>"; };
+		DD0799412BBA9A82000A5AE2 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		DD4674002A0E390700CAB28C /* CcuSigner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CcuSigner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -446,6 +447,7 @@
 		65A9D3E21F45CDF1004E0B61 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				DD0799402BBA9A4E000A5AE2 /* Resources */,
 				DD4673FD2A0E388C00CAB28C /* CCU */,
 				8A30B8F622118FD0001834E3 /* CompressionImplementation */,
 				6582C0BB1F4B09DC00B153D5 /* Common */,
@@ -603,6 +605,14 @@
 				612B0C93248E1C83009F1929 /* Thumbprint.swift */,
 			);
 			path = CryptoImplementation;
+			sourceTree = "<group>";
+		};
+		DD0799402BBA9A4E000A5AE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD0799412BBA9A82000A5AE2 /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		DD4673FD2A0E388C00CAB28C /* CCU */ = {
